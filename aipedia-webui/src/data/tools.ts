@@ -313,6 +313,24 @@ export const toolSections: CatalogSection[] = [
         url: 'https://e2b.dev/',
         logo: 'https://www.google.com/s2/favicons?domain=e2b.dev&sz=32',
       },
+      {
+        owner: 'Significant-Gravitas',
+        name: 'AutoGPT',
+        description:
+          'Open-source platform for building, deploying, and continuously running autonomous AI agents',
+        github: 'https://github.com/Significant-Gravitas/AutoGPT',
+        url: 'https://agpt.co',
+        logo: 'https://www.google.com/s2/favicons?domain=agpt.co&sz=32',
+      },
+      {
+        owner: 'CopilotKit',
+        name: 'CopilotKit OpenBot',
+        description:
+          'Open-source AI coworkers that each get their own browser, files, and tools; every action is decided before it runs and recorded after',
+        github: 'https://github.com/CopilotKit/OpenBot',
+        url: 'https://www.copilotkit.ai/openbot',
+        logo: 'https://www.google.com/s2/favicons?domain=copilotkit.ai&sz=32',
+      },
     ],
   },
   {
@@ -426,6 +444,23 @@ export const toolSections: CatalogSection[] = [
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
       {
+        owner: 'Kulaxyz',
+        name: 'Self-Learning Skills',
+        description:
+          'Self-improving skill for coding agents that turns hard-won golden paths from a session into a reusable skill or rule for next time',
+        github: 'https://github.com/kulaxyz/self-learning-skills',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'Graphify-Labs',
+        name: 'Graphify',
+        description:
+          'Turns a codebase, docs, SQL schemas, configs, and PDFs into a queryable knowledge graph; local AST parsing, no vector store',
+        github: 'https://github.com/Graphify-Labs/graphify',
+        url: 'https://www.graphify.com',
+        logo: 'https://www.google.com/s2/favicons?domain=graphify.com&sz=32',
+      },
+      {
         owner: 'mnemoverse',
         name: 'Awesome Agent Memory',
         description:
@@ -493,6 +528,31 @@ export const toolSections: CatalogSection[] = [
         github: 'https://github.com/ooples/token-optimizer-mcp',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
         categories: ['context'],
+      },
+      {
+        owner: 'JuliusBrussee',
+        name: 'Caveman',
+        description:
+          'Viral skill and proxy for coding agents that cuts about 65% of output tokens by answering in terse, caveman-style prose',
+        github: 'https://github.com/JuliusBrussee/caveman',
+        url: 'https://docs.caveman.so/caveman',
+        logo: 'https://www.google.com/s2/favicons?domain=caveman.so&sz=32',
+      },
+      {
+        owner: 'openai',
+        name: 'tiktoken',
+        description: 'Fast BPE tokenizer for OpenAI models; count tokens locally before sending a prompt',
+        github: 'https://github.com/openai/tiktoken',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'toon-format',
+        name: 'TOON',
+        description:
+          'Token-Oriented Object Notation: compact, human-readable serialization of JSON for LLM prompts, with TypeScript SDK and CLI',
+        github: 'https://github.com/toon-format/toon',
+        url: 'https://toonformat.dev',
+        logo: 'https://www.google.com/s2/favicons?domain=toonformat.dev&sz=32',
       },
       {
         owner: 'pleasedodisturb',
@@ -625,6 +685,15 @@ export const toolSections: CatalogSection[] = [
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
       {
+        owner: 'jgravelle',
+        name: 'jCodeMunch MCP',
+        description:
+          'MCP server for symbol-level code retrieval via tree-sitter AST; cuts code-exploration token costs for Claude Code, Cursor, and other MCP clients',
+        github: 'https://github.com/jgravelle/jcodemunch-mcp',
+        url: 'https://jcodemunch.com/',
+        logo: 'https://www.google.com/s2/favicons?domain=jcodemunch.com&sz=32',
+      },
+      {
         owner: 'yzfly',
         name: 'Awesome Context Engineering',
         description:
@@ -715,6 +784,30 @@ export const toolSections: CatalogSection[] = [
         description: 'Toolkit for Spec-Driven Development with coding agents',
         github: 'https://github.com/github/spec-kit',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'better-auth',
+        name: 'better-icons',
+        description: 'Skill and MCP server for searching and retrieving icons inside coding agents',
+        github: 'https://github.com/better-auth/better-icons',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'tree-sitter',
+        name: 'Tree-sitter',
+        description:
+          'Incremental parsing system for programming tools; builds concrete syntax trees for many languages',
+        github: 'https://github.com/tree-sitter/tree-sitter',
+        url: 'https://tree-sitter.github.io',
+        logo: 'https://www.google.com/s2/favicons?domain=tree-sitter.github.io&sz=32',
+      },
+      {
+        owner: 'universal-ctags',
+        name: 'Universal Ctags',
+        description: 'Maintained ctags implementation that generates tag indexes for source code navigation',
+        github: 'https://github.com/universal-ctags/ctags',
+        url: 'https://ctags.io',
+        logo: 'https://www.google.com/s2/favicons?domain=ctags.io&sz=32',
       },
       {
         owner: 'eclipse-theia',
@@ -900,6 +993,15 @@ export const toolSections: CatalogSection[] = [
           'Annotated curated library of papers, blogs, talks, tools, and benchmarks for building and evaluating AI agents',
         github: 'https://github.com/benchflow-ai/awesome-evals',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'promptfoo',
+        name: 'Promptfoo',
+        description:
+          'Test prompts, agents, and RAG pipelines with declarative configs; red teaming and vulnerability scans for AI with CI/CD integration',
+        github: 'https://github.com/promptfoo/promptfoo',
+        url: 'https://promptfoo.dev',
+        logo: 'https://www.google.com/s2/favicons?domain=promptfoo.dev&sz=32',
       },
       {
         owner: 'anomalyco',

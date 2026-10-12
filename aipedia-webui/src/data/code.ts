@@ -46,6 +46,17 @@ export const code: CodeRow[] = [
     url: 'https://cline.bot',
   },
   {
+    logo: 'https://www.google.com/s2/favicons?domain=continue.dev&sz=32',
+    code: 'Continue',
+    owner: 'Continue',
+    byok: true,
+    freePlan: true,
+    paidPlan: true,
+    cli: true,
+    editor: true,
+    url: 'https://continue.dev',
+  },
+  {
     logo: 'https://www.google.com/s2/favicons?domain=opencortexide.com&sz=32',
     code: 'CortexIDE',
     owner: 'OpenCortexIDE',
