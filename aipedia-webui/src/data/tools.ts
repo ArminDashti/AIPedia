@@ -331,6 +331,21 @@ export const toolSections: CatalogSection[] = [
         url: 'https://www.copilotkit.ai/openbot',
         logo: 'https://www.google.com/s2/favicons?domain=copilotkit.ai&sz=32',
       },
+      {
+        owner: 'swe-agent',
+        name: 'SWE-agent',
+        description:
+          'Agent that autonomously fixes GitHub issues using a custom agent-computer interface; from Princeton NLP research',
+        github: 'https://github.com/swe-agent/swe-agent',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'sweepai',
+        name: 'Sweep',
+        description: 'AI junior developer that turns GitHub issues into pull requests',
+        github: 'https://github.com/sweepai/sweep',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
     ],
   },
   {
@@ -584,6 +599,15 @@ export const toolSections: CatalogSection[] = [
           'Document parsing toolkit that converts PDFs and office files into structured data for gen AI / RAG',
         github: 'https://github.com/docling-project/docling',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'BAAI',
+        name: 'BGE',
+        description:
+          'Open-source embedding and reranker models for semantic search and RAG retrieval',
+        github: null,
+        url: 'https://bge-model.com/',
+        logo: 'https://www.google.com/s2/favicons?domain=bge-model.com&sz=32',
       },
       {
         owner: 'inkeep',
@@ -1052,6 +1076,32 @@ export const toolSections: CatalogSection[] = [
         url: 'https://musespark.ai/',
         logo: 'https://www.google.com/s2/favicons?domain=musespark.ai&sz=32',
       },
+      {
+        owner: 'Adobe',
+        name: 'Adobe Firefly',
+        description:
+          'Generative AI workspace for images, video, audio, and vectors, built into Adobe apps and the web',
+        github: null,
+        url: 'https://firefly.adobe.com/',
+        logo: 'https://www.google.com/s2/favicons?domain=adobe.com&sz=32',
+      },
+      {
+        owner: 'Ideogram',
+        name: 'Ideogram',
+        description: 'AI image generator known for accurate text rendering inside generated images',
+        github: null,
+        url: 'https://ideogram.ai/',
+        logo: 'https://www.google.com/s2/favicons?domain=ideogram.ai&sz=32',
+      },
+      {
+        owner: 'Leonardo.Ai',
+        name: 'Leonardo.Ai',
+        description:
+          'Image and video generation platform with custom model training, fine-tuning, and canvas editing',
+        github: null,
+        url: 'https://leonardo.ai/',
+        logo: 'https://www.google.com/s2/favicons?domain=leonardo.ai&sz=32',
+      },
     ],
   },
   {
@@ -1083,6 +1133,35 @@ export const toolSections: CatalogSection[] = [
         github: 'https://github.com/d4vinci/Scrapling',
         url: 'https://scrapling.readthedocs.io/en/latest/',
         logo: 'https://www.google.com/s2/favicons?domain=scrapling.readthedocs.io&sz=32',
+      },
+    ],
+  },
+  {
+    id: 'other',
+    title: 'Other',
+    description: 'Non-AI tools: content extraction, reconnaissance, and networking.',
+    rows: [
+      {
+        owner: 'Apache',
+        name: 'Apache Tika',
+        description: 'Content detection and text and metadata extraction toolkit for 1,000+ file formats',
+        github: 'https://github.com/apache/tika',
+        url: 'https://tika.apache.org/',
+        logo: 'https://www.google.com/s2/favicons?domain=tika.apache.org&sz=32',
+      },
+      {
+        owner: 'j3ssie',
+        name: 'Metabigor',
+        description: 'OSINT command-line tool for intelligence gathering: ASN, IP, and company reconnaissance',
+        github: 'https://github.com/j3ssie/metabigor',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'ExpressVPN',
+        name: 'Lightway',
+        description: 'Open-source VPN protocol library for fast, secure connections; powers ExpressVPN apps',
+        github: 'https://github.com/expressvpn/lightway',
+        logo: 'https://www.google.com/s2/favicons?domain=expressvpn.com&sz=32',
       },
     ],
   },
