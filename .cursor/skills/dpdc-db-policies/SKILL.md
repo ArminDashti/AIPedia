@@ -1,5 +1,5 @@
 ---
-name: dpdc-db-policy
+name: dpdc-db-policies
 description: >-
   Policy for working with the DPDC / Pakhsh workplace SQL Server database
   (Pakhsh_Data_New): connect via environment variables only, read-only and

@@ -27,6 +27,8 @@ Links collected for reference, grouped by category.
 - https://github.com/tinyhumansai/openhuman
 - https://www.openhands.dev/
 - https://opencode.ai/
+- https://www.camel-ai.org/
+- https://github.com/camel-ai/owl
 
 ## Research Agents
 
@@ -36,6 +38,26 @@ Links collected for reference, grouped by category.
 
 - https://github.com/qdrant/mcp-server-qdrant
 - https://github.com/bytebase/dbhub
+
+## RAG and Document Intelligence
+
+- https://www.llamaindex.ai/
+- https://www.llamaindex.ai/llamacloud
+
+## Voice and Speech AI
+
+- https://elevenlabs.io/
+- https://github.com/debpalash/VoiceStudio
+
+## Agent Tools and Web Access
+
+- https://github.com/Panniantong/Agent-Reach
+- https://github.com/lexmount/moli
+
+## Diagram and Architecture Tools
+
+- https://github.com/tt-a1i/archify
+- https://github.com/cathrynlavery/diagram-design
 
 ## Skill Directories and Registries
 
@@ -52,6 +74,8 @@ Links collected for reference, grouped by category.
 
 - https://github.com/ggml-org/llama.cpp
 - https://www.omniroute.online/
+- https://infron.ai/
+- https://www.baseten.co/
 
 ## Security and Recon Tools
 
@@ -60,3 +84,8 @@ Links collected for reference, grouped by category.
 ## Monitoring and Dashboards
 
 - https://github.com/koala73/worldmonitor
+- https://github.com/AgentOps-AI/agentops
+
+## Needs Review
+
+- https://reasonmachines.com/
