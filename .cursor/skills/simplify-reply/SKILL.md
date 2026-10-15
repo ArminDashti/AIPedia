@@ -1,7 +1,6 @@
 ---
 name: simplify-reply
 description: Explains complex or technical answers in simple, plain language for users who are new to the topic.
-<<<<<<< HEAD
 disable-model-invocation: true
 metadata:
   version: "1.2.1"
@@ -9,10 +8,6 @@ metadata:
   category: Communication
   tags: [simplification, beginner-friendly, plain-language]
   last_updated: "2026-08-12 00:15:00"
-=======
-metadata:
-  author: Armin Dashti
->>>>>>> 519d50e (chore: sync local changes 2026-10-15)
   uuid: 32862fcf-4ba2-42f1-8488-641287edf038
 ---
 
