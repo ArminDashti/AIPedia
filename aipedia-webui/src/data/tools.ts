@@ -346,6 +346,63 @@ export const toolSections: CatalogSection[] = [
         github: 'https://github.com/sweepai/sweep',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
+      {
+        owner: 'aaif-goose',
+        name: 'Goose',
+        description:
+          'Open-source on-machine AI agent from Block that edits code, runs commands, and uses MCP tools from desktop and CLI',
+        github: 'https://github.com/aaif-goose/goose',
+        url: 'https://aaif.io/',
+        logo: 'https://www.google.com/s2/favicons?domain=aaif.io&sz=32',
+      },
+      {
+        owner: 'openinterpreter',
+        name: 'Open Interpreter',
+        description:
+          'Natural-language interface that lets models run code locally for files, browsers, and system tasks',
+        github: 'https://github.com/openinterpreter/openinterpreter',
+        url: 'https://openinterpreter.com/',
+        logo: 'https://www.google.com/s2/favicons?domain=openinterpreter.com&sz=32',
+      },
+      {
+        owner: 'unreallabsai',
+        name: 'Unreal Agent',
+        description: 'Agent runtime and tooling from Unreal Labs for autonomous software workflows',
+        github: 'https://github.com/unreallabsai/unreal-agent',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'Manus',
+        name: 'Manus',
+        description: 'General-purpose AI agent product for research, coding, and multi-step task execution',
+        github: null,
+        url: 'https://manus.im/',
+        logo: 'https://www.google.com/s2/favicons?domain=manus.im&sz=32',
+      },
+      {
+        owner: 'morluto',
+        name: 'rea',
+        description: 'Open-source agent project from morluto (rea)',
+        github: 'https://github.com/morluto/rea',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'daytonaio',
+        name: 'Daytona',
+        description: 'Secure, elastic sandboxes for running AI-generated code at scale',
+        github: null,
+        url: 'https://www.daytona.io/',
+        logo: 'https://www.google.com/s2/favicons?domain=daytona.io&sz=32',
+      },
+      {
+        owner: 'merge',
+        name: 'Merge',
+        description:
+          'Unified API for product integrations (HRIS, ATS, accounting, ticketing) with managed auth and webhooks',
+        github: null,
+        url: 'https://www.merge.dev/',
+        logo: 'https://www.google.com/s2/favicons?domain=merge.dev&sz=32',
+      },
     ],
   },
   {
@@ -787,6 +844,23 @@ export const toolSections: CatalogSection[] = [
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
       {
+        owner: 'Kilo-Org',
+        name: 'Kilo Code',
+        description:
+          'Open-source AI coding agent for VS Code and JetBrains with BYOK, CLI, and multi-model support',
+        github: 'https://github.com/Kilo-Org/kilocode',
+        url: 'https://kilo.ai/',
+        logo: 'https://www.google.com/s2/favicons?domain=kilo.ai&sz=32',
+      },
+      {
+        owner: 'typesafe',
+        name: 'TypeSafe',
+        description: 'Type-safe tooling and APIs for building reliable LLM-powered applications',
+        github: null,
+        url: 'https://typesafe.ai/',
+        logo: 'https://www.google.com/s2/favicons?domain=typesafe.ai&sz=32',
+      },
+      {
         owner: 'dolthub',
         name: 'Dolt',
         description: 'Version-controlled SQL database: branch, merge, diff, and clone data like Git',
@@ -953,6 +1027,30 @@ export const toolSections: CatalogSection[] = [
         url: 'https://tetrate.ai/',
         logo: 'https://www.google.com/s2/favicons?domain=tetrate.ai&sz=32',
       },
+      {
+        owner: 'Cheaper Inference',
+        name: 'Cheaper Inference',
+        description: 'Directory and tooling for finding lower-cost LLM inference routes and providers',
+        github: null,
+        url: 'https://www.cheaperinference.com/',
+        logo: 'https://www.google.com/s2/favicons?domain=cheaperinference.com&sz=32',
+      },
+      {
+        owner: 'Novita AI',
+        name: 'Novita AI',
+        description: 'Serverless GPU inference API for open models, image generation, and embeddings',
+        github: null,
+        url: 'https://novita.ai/',
+        logo: 'https://www.google.com/s2/favicons?domain=novita.ai&sz=32',
+      },
+      {
+        owner: 'Clean APIs',
+        name: 'Clean APIs',
+        description: 'Curated and normalized APIs for integrating SaaS data into agents and backends',
+        github: null,
+        url: 'https://cleanapis.com/',
+        logo: 'https://www.google.com/s2/favicons?domain=cleanapis.com&sz=32',
+      },
     ],
   },
   {
@@ -993,6 +1091,40 @@ export const toolSections: CatalogSection[] = [
           'Curated tools and standards for LLM/agent observability: OTel GenAI, tracing, evals, guardrails, MCP',
         github: 'https://github.com/anhermon/awesome-agent-observability',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'langfuse',
+        name: 'Langfuse',
+        description:
+          'Open-source LLM engineering platform: traces, prompts, evals, and metrics for agents and apps',
+        github: 'https://github.com/langfuse/langfuse',
+        url: 'https://langfuse.com/',
+        logo: 'https://www.google.com/s2/favicons?domain=langfuse.com&sz=32',
+      },
+      {
+        owner: 'AgentOps-AI',
+        name: 'AgentOps',
+        description:
+          'Observability and session analytics for AI agents: cost, latency, tool calls, and failure debugging',
+        github: 'https://github.com/AgentOps-AI/agentops',
+        url: 'https://www.agentops.ai/',
+        logo: 'https://www.google.com/s2/favicons?domain=agentops.ai&sz=32',
+      },
+      {
+        owner: 'coderabbitai',
+        name: 'CodeRabbit',
+        description: 'AI code review bot for pull requests with line-level feedback and learning from your codebase',
+        github: null,
+        url: 'https://www.coderabbit.ai/',
+        logo: 'https://www.google.com/s2/favicons?domain=coderabbit.ai&sz=32',
+      },
+      {
+        owner: 'Token Harbor',
+        name: 'Token Harbor',
+        description: 'Token usage tracking and optimization insights for LLM and agent workloads',
+        github: null,
+        url: 'https://tokenharbor.ai/',
+        logo: 'https://www.google.com/s2/favicons?domain=tokenharbor.ai&sz=32',
       },
     ],
   },
@@ -1035,6 +1167,15 @@ export const toolSections: CatalogSection[] = [
         github: 'https://github.com/anomalyco/models.dev',
         url: 'https://models.dev/',
         logo: 'https://www.google.com/s2/favicons?domain=models.dev&sz=32',
+      },
+      {
+        owner: 'confident-ai',
+        name: 'DeepEval',
+        description:
+          'Open-source LLM evaluation framework: unit tests, metrics, and CI for RAG and agent pipelines',
+        github: 'https://github.com/confident-ai/deepeval',
+        url: 'https://deepeval.com/',
+        logo: 'https://www.google.com/s2/favicons?domain=deepeval.com&sz=32',
       },
     ],
   },
@@ -1115,6 +1256,22 @@ export const toolSections: CatalogSection[] = [
         description:
           'One CLI giving agents eyes on the internet: read and search Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu with zero API fees',
         github: 'https://github.com/Panniantong/Agent-Reach',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'lexmount',
+        name: 'moli',
+        description:
+          'Playwright-based browser automation stack for agents: MCP server, CDP bridge, and stealth browsing helpers',
+        github: 'https://github.com/lexmount/moli',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'ServiceNow',
+        name: 'BrowserGym',
+        description:
+          'Gymnasium-style benchmark and toolkit for training and evaluating web-browsing agents on real sites',
+        github: 'https://github.com/ServiceNow/BrowserGym',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
       {
