@@ -73,6 +73,22 @@ export const skillSections: CatalogSection[] = [
         github: 'https://github.com/breferrari/obsidian-mind',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
+      {
+        owner: 'NeoLabHQ',
+        name: 'Context Engineering Kit',
+        description:
+          'Hand-crafted Claude Code skills for agent quality; works with Cursor, OpenCode, Antigravity, Gemini CLI, and more',
+        github: 'https://github.com/NeoLabHQ/context-engineering-kit',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'mhattingpete',
+        name: 'Claude Skills Marketplace',
+        description:
+          'Claude Code skills for software engineering: Git automation, testing, and code review workflows',
+        github: 'https://github.com/mhattingpete/claude-skills-marketplace',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
     ],
   },
   {
@@ -217,6 +233,61 @@ export const skillSections: CatalogSection[] = [
         url: 'https://www.skills.sh/othmanadi/planning-with-files/planning-with-files',
         logo: 'https://www.google.com/s2/favicons?domain=skills.sh&sz=32',
       },
+      {
+        owner: 'ComposioHQ',
+        name: 'File Organizer',
+        description:
+          'Organizes files and folders by context, finds duplicates, and suggests structure from messy desktops and downloads',
+        github:
+          'https://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'emory',
+        name: 'ASD AuDHD PAI Skills',
+        description:
+          'Skills for personal AI and mobile agents aimed at autism spectrum and demand-avoidance-friendly workflows',
+        github: 'https://github.com/emory/ASD-AuDHD-PAI-Skills',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+    ],
+  },
+  {
+    id: 'documents',
+    title: 'Document & Office Skills',
+    description: 'Create, read, and edit Office documents and PDFs with agent skills.',
+    rows: [
+      {
+        owner: 'Anthropic',
+        name: 'DOCX Skill',
+        description: 'Create, read, edit, and manipulate Word documents and templates (.docx, .dotx)',
+        github: 'https://github.com/anthropics/skills/tree/main/skills/docx',
+        logo: 'https://www.google.com/s2/favicons?domain=anthropic.com&sz=32',
+      },
+      {
+        owner: 'Anthropic',
+        name: 'PDF Skill',
+        description:
+          'Read, merge, split, rotate, form-fill, encrypt, and OCR PDFs; extract text, tables, and images',
+        github: 'https://github.com/anthropics/skills/tree/main/skills/pdf',
+        logo: 'https://www.google.com/s2/favicons?domain=anthropic.com&sz=32',
+      },
+      {
+        owner: 'Anthropic',
+        name: 'XLSX Skill',
+        description:
+          'Open, read, edit, and build Excel spreadsheets when .xlsx files are inputs or outputs',
+        github: 'https://github.com/anthropics/skills/tree/main/skills/xlsx',
+        logo: 'https://www.google.com/s2/favicons?domain=anthropic.com&sz=32',
+      },
+      {
+        owner: 'Anthropic',
+        name: 'PPTX Skill',
+        description:
+          'Create and edit slide decks, pitch decks, and presentations (.pptx, .potx)',
+        github: 'https://github.com/anthropics/skills/tree/main/skills/pptx',
+        logo: 'https://www.google.com/s2/favicons?domain=anthropic.com&sz=32',
+      },
     ],
   },
   {
@@ -237,6 +308,91 @@ export const skillSections: CatalogSection[] = [
         description:
           "Garry Tan's Claude Code setup: 23 opinionated tools covering CEO, design, eng, release, docs, and QA roles",
         github: 'https://github.com/garrytan/gstack',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'assafelovic',
+        name: 'GPT Researcher',
+        description:
+          'Autonomous deep-research agent over local and web sources with pluggable LLM providers',
+        github: 'https://github.com/assafelovic/gpt-researcher',
+        url: 'https://gptr.dev',
+        logo: 'https://www.google.com/s2/favicons?domain=gptr.dev&sz=32',
+      },
+      {
+        owner: 'imoonkey',
+        name: 'OpenWeb',
+        description:
+          'Agent-native web access: bridge agent CLIs and site GUIs through a shared API layer',
+        github: 'https://github.com/imoonkey/openweb',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'NeoLabHQ',
+        name: 'Prompt Engineering',
+        description:
+          'Context-engineering skill for writing agent commands, hooks, skills, and sub-agent prompts',
+        github:
+          'https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/customaize-agent/skills/prompt-engineering',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'obra',
+        name: 'Brainstorming',
+        description:
+          'Superpowers skill to run structured design exploration before building features or changing behavior',
+        github: 'https://github.com/obra/superpowers/tree/main/skills/brainstorming',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'sanjay3290',
+        name: 'MSSQL Skill',
+        description:
+          'Read-only SQL against Microsoft SQL Server: explore schemas, run bounded queries, multi-database',
+        github: 'https://github.com/sanjay3290/ai-skills/tree/main/skills/mssql',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'mhattingpete',
+        name: 'Git Pushing',
+        description:
+          'Stage, commit, and push with conventional commit messages in engineering workflows',
+        github:
+          'https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/git-pushing',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'kiluazen',
+        name: 'Chrome Relay',
+        description:
+          'Drive your signed-in Chrome from the shell: read pages, click, and fill forms without a separate browser',
+        github: 'https://github.com/kiluazen/chrome-relay',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'LewisLiu007',
+        name: 'Full Page Screenshot',
+        description:
+          'Zero-dependency full-page screenshots via Chrome DevTools Protocol for agent workflows',
+        github: 'https://github.com/LewisLiu007/full-page-screenshot',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'ComposioHQ',
+        name: 'LangSmith Fetch',
+        description:
+          'Pull LangSmith Studio traces to debug LangChain and LangGraph agent runs',
+        github:
+          'https://github.com/ComposioHQ/awesome-claude-skills/tree/master/langsmith-fetch',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'ComposioHQ',
+        name: 'MCP Builder',
+        description:
+          'Guide for building MCP servers so LLMs can call external services reliably',
+        github:
+          'https://github.com/ComposioHQ/awesome-claude-skills/tree/master/mcp-builder',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
       {
@@ -296,6 +452,22 @@ export const skillSections: CatalogSection[] = [
         url: 'https://www.openmontage.video/',
         logo: 'https://www.google.com/s2/favicons?domain=openmontage.video&sz=32',
       },
+      {
+        owner: 'omkamal',
+        name: 'Pypict Claude Skill',
+        description:
+          'Generates combinatorial test cases with the pypict library using N-wise coverage for agents',
+        github: 'https://github.com/omkamal/pypict-claude-skill',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'santiago-vargas-de-kruijf',
+        name: 'Claude Overkill',
+        description:
+          'Surfaces advanced data structures, distributed algorithms, niche frameworks, and frontier tooling with a calibrated complexity score',
+        github: 'https://github.com/santiago-vargas-de-kruijf/claude-overkill',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
     ],
   },
   {
@@ -344,6 +516,24 @@ export const skillSections: CatalogSection[] = [
         github: 'https://github.com/yusufkaraaslan/Skill_Seekers',
         url: 'https://skillseekersweb.com/',
         logo: 'https://www.google.com/s2/favicons?domain=skillseekersweb.com&sz=32',
+      },
+      {
+        owner: 'ComposioHQ',
+        name: 'Skill Creator',
+        description:
+          'Guide for authoring effective agent skills and updating existing skill packages',
+        github:
+          'https://github.com/ComposioHQ/awesome-claude-skills/tree/master/skill-creator',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'Oasis',
+        name: 'Oasis HQ',
+        description:
+          'Workspace where people and agents share context, memory, policies, and approvals',
+        github: null,
+        url: 'https://joinoasis.com/',
+        logo: 'https://www.google.com/s2/favicons?domain=joinoasis.com&sz=32',
       },
     ],
   },
