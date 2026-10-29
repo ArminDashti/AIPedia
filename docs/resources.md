@@ -22,11 +22,18 @@ Links collected for reference, grouped by category.
 ## Agent Frameworks and Coding Agents
 
 - https://github.com/FoundationAgents/AFlow
+- https://github.com/astrbotdevs/astrbot
+- https://github.com/paperclipai/paperclip
+- https://github.com/FoundationAgents/MetaGPT
+- https://github.com/TransformerOptimus/SuperAGI
+- https://github.com/callstack/agent-device
 - https://github.com/1jehuang/jcode
 - https://github.com/rinadelph/Agent-MCP
 - https://github.com/dietrichgebert/ponytail
 - https://github.com/Significant-Gravitas/AutoGPT
 - https://github.com/tinyhumansai/openhuman
+- https://tinyhumans.ai/
+- https://tinyhumans.ai/openhuman
 - https://www.openhands.dev/
 - https://github.com/OpenHands/OpenHands
 - https://opencode.ai/
@@ -52,6 +59,7 @@ Links collected for reference, grouped by category.
 
 ## MCP Servers and Database Tools
 
+- https://github.com/RichardHan/mssql_mcp_server
 - https://github.com/qdrant/mcp-server-qdrant
 - https://github.com/bytebase/dbhub
 
@@ -96,6 +104,8 @@ Links collected for reference, grouped by category.
 - https://github.com/ComposioHQ/awesome-claude-skills/tree/master/langsmith-fetch
 - https://github.com/ComposioHQ/awesome-claude-skills/tree/master/mcp-builder
 - https://github.com/Leonxlnx/taste-skill
+- https://github.com/Kulaxyz/self-learning-skills
+- https://github.com/EvoMap/awesome-agent-evolution
 - https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
 - https://github.com/garrytan/gstack
 - https://github.com/browser-act/skills
@@ -148,11 +158,16 @@ Links collected for reference, grouped by category.
 
 ## Monitoring, Observability, and Evals
 
+- https://github.com/promptfoo/promptfoo
 - https://github.com/koala73/worldmonitor
 - https://github.com/AgentOps-AI/agentops
 - https://github.com/langfuse/langfuse
 - https://www.coderabbit.ai/
 - https://github.com/confident-ai/deepeval
+
+## Guardrails and Safety
+
+- https://github.com/NVIDIA-NeMo/Guardrails
 
 ## Needs Review
 

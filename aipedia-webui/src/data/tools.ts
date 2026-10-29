@@ -16,6 +16,14 @@ export const toolSections: CatalogSection[] = [
         logo: 'https://www.google.com/s2/favicons?domain=ai-devkit.com&sz=32',
       },
       {
+        owner: 'astrbotdevs',
+        name: 'AstrBot',
+        description:
+          'Agent assistant and dev framework integrating IM platforms, LLMs, plugins, and AI features; OpenClaw-style alternative',
+        github: 'https://github.com/astrbotdevs/astrbot',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
         owner: 'botpress',
         name: 'Botpress v12',
         description:
@@ -121,6 +129,14 @@ export const toolSections: CatalogSection[] = [
         logo: 'https://www.google.com/s2/favicons?domain=openhands.dev&sz=32',
       },
       {
+        owner: 'paperclipai',
+        name: 'Paperclip',
+        description:
+          'Open-source app for managing AI agents at work: tasks, approvals, and agent ops in one place',
+        github: 'https://github.com/paperclipai/paperclip',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
         owner: 'milind-soni',
         name: 'OpenMausBot',
         description: 'Open-source Grok Bot alternative with a virtual machine that bots can use',
@@ -165,6 +181,15 @@ export const toolSections: CatalogSection[] = [
         logo: 'https://www.google.com/s2/favicons?domain=tinyhumans.ai&sz=32',
       },
       {
+        owner: 'tinyhumansai',
+        name: 'OpenHuman',
+        description:
+          'Lightweight open-source agent harness built to run hundreds of agents efficiently on modest hardware',
+        github: 'https://github.com/tinyhumansai/openhuman',
+        url: 'https://tinyhumans.ai/openhuman',
+        logo: 'https://www.google.com/s2/favicons?domain=tinyhumans.ai&sz=32',
+      },
+      {
         owner: 'agno-agi',
         name: 'Agno',
         description:
@@ -180,6 +205,14 @@ export const toolSections: CatalogSection[] = [
         github: 'https://github.com/FoundationAgents/AFlow',
         url: 'https://arxiv.org/abs/2410.10762',
         logo: 'https://www.google.com/s2/favicons?domain=arxiv.org&sz=32',
+      },
+      {
+        owner: 'FoundationAgents',
+        name: 'MetaGPT',
+        description:
+          'Multi-agent framework that models an AI software company: roles, SOPs, and natural-language programming',
+        github: 'https://github.com/FoundationAgents/MetaGPT',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
       {
         owner: 'Ant Ling',
@@ -296,6 +329,15 @@ export const toolSections: CatalogSection[] = [
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
       {
+        owner: 'EvoMap',
+        name: 'Awesome Agent Evolution',
+        description:
+          'Curated list of agent evolution, memory systems, multi-agent architectures, and self-improvement projects',
+        github: 'https://github.com/EvoMap/awesome-agent-evolution',
+        url: 'https://evomap.ai/',
+        logo: 'https://www.google.com/s2/favicons?domain=evomap.ai&sz=32',
+      },
+      {
         owner: 'ComposioHQ',
         name: 'Composio',
         description:
@@ -323,6 +365,14 @@ export const toolSections: CatalogSection[] = [
         logo: 'https://www.google.com/s2/favicons?domain=agpt.co&sz=32',
       },
       {
+        owner: 'callstack',
+        name: 'Agent Device',
+        description:
+          'Device layer for coding agents: CLI, MCP server, and typed Node API for mobile, web, TV, and desktop apps on simulators or cloud',
+        github: 'https://github.com/callstack/agent-device',
+        logo: 'https://www.google.com/s2/favicons?domain=callstack.com&sz=32',
+      },
+      {
         owner: 'CopilotKit',
         name: 'CopilotKit OpenBot',
         description:
@@ -344,6 +394,14 @@ export const toolSections: CatalogSection[] = [
         name: 'Sweep',
         description: 'AI junior developer that turns GitHub issues into pull requests',
         github: 'https://github.com/sweepai/sweep',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'TransformerOptimus',
+        name: 'SuperAGI',
+        description:
+          'Dev-first open-source framework to build, manage, and run useful autonomous agents with tooling and memory',
+        github: 'https://github.com/TransformerOptimus/SuperAGI',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
       {
@@ -520,7 +578,7 @@ export const toolSections: CatalogSection[] = [
         name: 'Self-Learning Skills',
         description:
           'Self-improving skill for coding agents that turns hard-won golden paths from a session into a reusable skill or rule for next time',
-        github: 'https://github.com/kulaxyz/self-learning-skills',
+        github: 'https://github.com/Kulaxyz/self-learning-skills',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
       {
@@ -1200,6 +1258,15 @@ export const toolSections: CatalogSection[] = [
           'Curated materials on AI guardrails: security/privacy, relevance, language quality, content and logic validation',
         github: 'https://github.com/enguard-ai/awesome-ai-guardrails',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'NVIDIA-NeMo',
+        name: 'NeMo Guardrails',
+        description:
+          'Open-source toolkit for programmable guardrails on LLM conversational systems: topical, safety, and fact-check rails',
+        github: 'https://github.com/NVIDIA-NeMo/Guardrails',
+        url: 'https://docs.nvidia.com/nemo/guardrails/latest/',
+        logo: 'https://www.google.com/s2/favicons?domain=nvidia.com&sz=32',
       },
     ],
   },
