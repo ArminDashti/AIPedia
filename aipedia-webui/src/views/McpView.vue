@@ -4,8 +4,8 @@ import { mcpSections } from '@/data/mcp'
 
 const columns = [
   { key: 'name', label: 'MCP', type: 'named-link' as const },
-  { key: 'owner', label: 'Owner', type: 'brand' as const },
   { key: 'description', label: 'Description' },
+  { key: 'owner', label: 'Owner', type: 'brand' as const },
 ]
 </script>
 

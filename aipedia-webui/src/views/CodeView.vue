@@ -15,7 +15,7 @@ const columns = [
 
 <template>
   <CatalogTable
-    title="Code"
+    title="Coding and Harness"
     description="Code editors and CLI coding agents. Green ✓ / red ✗ for plan and surface support."
     :columns="columns"
     :rows="code"

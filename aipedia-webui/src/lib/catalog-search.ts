@@ -107,7 +107,7 @@ export async function buildCatalogIndex(): Promise<CatalogSearchItem[]> {
       id: `companies:${row.company}`,
       kind: 'companies',
       label: row.company,
-      subtitle: `${row.country}${row.foundYear ? ` · ${row.foundYear}` : ''}`,
+      subtitle: `${row.headquarters ?? row.country}${row.foundYear ? ` · ${row.foundYear}` : ''}`,
       description: row.country,
       href: KIND_ROUTE.companies,
       url: row.url,

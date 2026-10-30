@@ -26,6 +26,11 @@ export type CompanyRow = {
   country: string
   foundYear: number | null
   url?: string
+  founders?: string | null
+  headquarters?: string | null
+  products?: string | null
+  employees?: string | null
+  owners?: string | null
 }
 
 export type ModelRow = {

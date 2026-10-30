@@ -59,9 +59,9 @@ export const seoRoutes: SeoRoute[] = [
   {
     path: '/code',
     name: 'code',
-    title: 'Code Editors & Agents — AIPedia',
-    description: 'Code editors and CLI coding agents compared in the AIPedia catalog.',
-    heading: 'Code',
+    title: 'Coding and Harness — AIPedia',
+    description: 'Coding harnesses, editors, and CLI coding agents compared in the AIPedia catalog.',
+    heading: 'Coding and Harness',
     pageDescription:
       'Code editors and CLI coding agents. Green ✓ / red ✗ for plan and surface support.',
   },

@@ -16,7 +16,7 @@ const isAdminSection = computed(
 
 const navItems = [
   { to: '/chatbots', label: 'ChatBots' },
-  { to: '/code', label: 'Code' },
+  { to: '/code', label: 'Coding and Harness' },
   { to: '/companies', label: 'Companies' },
   { to: '/mcp', label: 'MCP' },
   { to: '/models', label: 'Models' },

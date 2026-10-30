@@ -4,8 +4,8 @@ import { skillSections } from '@/data/skills'
 
 const columns = [
   { key: 'name', label: 'Skill', type: 'named-link' as const },
-  { key: 'owner', label: 'Owner', type: 'brand' as const },
   { key: 'description', label: 'Description' },
+  { key: 'owner', label: 'Owner', type: 'brand' as const },
 ]
 </script>
 

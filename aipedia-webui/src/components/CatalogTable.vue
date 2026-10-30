@@ -6,11 +6,13 @@ import {
   companyIconSrc,
   companyLetter,
 } from '@/data/company-icons'
+import { countryFlagSrc } from '@/data/country-icons'
+import { formatFounded } from '@/lib/company-founded'
 
 export type CatalogColumn = {
   key: string
   label: string
-  type?: 'text' | 'logo' | 'link' | 'multiline' | 'tick' | 'flag-country' | 'brand' | 'named-link'
+  type?: 'text' | 'logo' | 'link' | 'multiline' | 'tick' | 'flag-country' | 'brand' | 'named-link' | 'founded'
   sortable?: boolean
 }
 
@@ -61,6 +63,11 @@ function cellValue(row: Record<string, unknown>, key: string): unknown {
   return row[key]
 }
 
+function sortValue(row: Record<string, unknown>, key: string): unknown {
+  if (key === 'founded') return cellValue(row, 'foundYear')
+  return cellValue(row, key)
+}
+
 function asString(value: unknown): string {
   if (value == null) return '—'
   return String(value)
@@ -101,6 +108,14 @@ function brandIconClass(row: Record<string, unknown>, columnKey: string): string
   return companyIconIsMono(brandName(row, columnKey)) ? `${base} dark:invert` : base
 }
 
+function rowFlagSrc(row: Record<string, unknown>): string {
+  const fromRow = asLink(cellValue(row, 'flag'))
+  if (fromRow?.startsWith('/')) return fromRow
+  const fromCountry = countryFlagSrc(asString(cellValue(row, 'country')))
+  if (fromCountry) return fromCountry
+  return fromRow ?? ''
+}
+
 function brandHref(row: Record<string, unknown>, columnKey: string): string | null {
   const name = brandName(row, columnKey)
   const mapped = companyHomeUrl(name)
@@ -126,6 +141,9 @@ function searchableText(row: Record<string, unknown>, column: CatalogColumn): st
   }
   if (column.type === 'brand') {
     return brandName(row, column.key).toLowerCase()
+  }
+  if (column.type === 'founded') {
+    return formatFounded(cellValue(row, 'foundYear') as number | null).toLowerCase()
   }
   return asString(cellValue(row, column.key)).toLowerCase()
 }
@@ -155,7 +173,7 @@ const displayedRows = computed(() => {
 
   const key = sortKey.value
   const dir = sortDir.value === 'asc' ? 1 : -1
-  return [...next].sort((left, right) => dir * compareValues(cellValue(left, key), cellValue(right, key)))
+  return [...next].sort((left, right) => dir * compareValues(sortValue(left, key), sortValue(right, key)))
 })
 
 function isSortable(column: CatalogColumn): boolean {
@@ -315,9 +333,21 @@ function sortIndicator(column: CatalogColumn): string {
                   {{ asBoolean(cellValue(row, column.key)) ? '✓' : '✗' }}
                 </span>
               </template>
+              <template v-else-if="column.type === 'founded'">
+                {{ formatFounded(cellValue(row, 'foundYear') as number | null) }}
+              </template>
               <template v-else-if="column.type === 'flag-country'">
                 <span class="inline-flex items-center gap-2">
-                  <span class="text-base leading-none" aria-hidden="true">{{ asString(cellValue(row, 'flag')) }}</span>
+                  <img
+                    v-if="rowFlagSrc(row).startsWith('/')"
+                    :src="rowFlagSrc(row)"
+                    alt=""
+                    class="h-4 w-6 shrink-0 rounded-sm object-cover ring-1 ring-border/40"
+                    aria-hidden="true"
+                  />
+                  <span v-else-if="rowFlagSrc(row)" class="text-base leading-none" aria-hidden="true">
+                    {{ rowFlagSrc(row) }}
+                  </span>
                   <span>{{ asString(cellValue(row, 'country')) }}</span>
                 </span>
               </template>

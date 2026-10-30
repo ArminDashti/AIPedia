@@ -46,6 +46,15 @@ Links collected for reference, grouped by category.
 - https://github.com/aaif-goose/goose
 - https://aaif.io/
 - https://github.com/morluto/rea
+- https://github.com/ai-job-search-dev/ai-job-search
+- https://github.com/TauricResearch/TradingAgents
+- https://github.com/CopilotKit/OpenDuet
+- https://github.com/vercel/eve
+- https://eve.dev/
+- https://harnessrouter.ai/
+- https://openbot.run/
+- https://reasonmachines.com/
+- https://agentusecases.ai/
 
 ## Research Agents
 
@@ -62,17 +71,24 @@ Links collected for reference, grouped by category.
 - https://github.com/RichardHan/mssql_mcp_server
 - https://github.com/qdrant/mcp-server-qdrant
 - https://github.com/bytebase/dbhub
+- https://github.com/vibheksoni/stealth-browser-mcp
+- https://github.com/shellhub-io/shellhub
 
 ## Integrations and Unified APIs
 
+- https://github.com/larksuite/cli
 - https://www.merge.dev/
 - https://www.cleanapis.com/
+- https://cleanapis.com/
+- https://refuseless.com/
+- https://apinex.bond/
 
 ## RAG and Document Intelligence
 
 - https://www.llamaindex.ai/
 - https://www.llamaindex.ai/llamacloud
 - https://github.com/topoteretes/cognee
+- https://supermemory.ai/
 
 ## Voice and Speech AI
 
@@ -93,9 +109,14 @@ Links collected for reference, grouped by category.
 
 ## Skill Directories and Registries
 
+- https://skills.sh/
+- https://agentskills.io/
+- https://github.com/vercel-labs/agent-skills
+- https://github.com/softaworks/agent-toolkit
+- https://github.com/pbakaus/impeccable
+- https://changeradar.ai/
 - https://glama.ai/
 - https://www.agentskills.to/
-- https://www.skills.sh/
 - https://hub.openclaw.ai/
 - https://joinoasis.com/
 - https://github.com/ComposioHQ/awesome-claude-skills
@@ -104,6 +125,8 @@ Links collected for reference, grouped by category.
 - https://github.com/ComposioHQ/awesome-claude-skills/tree/master/langsmith-fetch
 - https://github.com/ComposioHQ/awesome-claude-skills/tree/master/mcp-builder
 - https://github.com/Leonxlnx/taste-skill
+- https://github.com/Leonxlnx/unlazy
+- https://github.com/QingYunA/answer-me-with-html
 - https://github.com/Kulaxyz/self-learning-skills
 - https://github.com/EvoMap/awesome-agent-evolution
 - https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
@@ -133,6 +156,7 @@ Links collected for reference, grouped by category.
 
 ## UI and Design Assets
 
+- https://github.com/iqonicdesignofficial
 - https://github.com/better-auth/better-icons
 
 ## LLM Infrastructure and Gateways
@@ -154,6 +178,14 @@ Links collected for reference, grouped by category.
 
 ## Security and Recon Tools
 
+- https://github.com/mukul975/anthropic-cybersecurity-skills
+- https://github.com/cloudflare/security-audit-skill/blob/main/skills/security-audit/SKILL.md
+- https://github.com/lauriewired/ghidramcp
+- https://github.com/0x4m4/hexstrike-ai
+- https://github.com/greydgl/pentestgpt
+- https://github.com/vxcontrol/pentagi
+- https://github.com/KeygraphHQ/shannon
+- https://github.com/usestrix/strix
 - https://github.com/j3ssie/metabigor
 
 ## Monitoring, Observability, and Evals
@@ -169,6 +201,6 @@ Links collected for reference, grouped by category.
 
 - https://github.com/NVIDIA-NeMo/Guardrails
 
-## Needs Review
+## Directories and Deals
 
-- https://reasonmachines.com/
+- https://www.studentoffers.co/

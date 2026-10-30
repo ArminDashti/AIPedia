@@ -10,6 +10,8 @@ import { models } from '../src/data/models'
 import { code } from '../src/data/code'
 import { chatbots } from '../src/data/chatbots'
 import { companyHomeUrl, companyIconSrc } from '../src/data/company-icons'
+import { countryFlagSrc } from '../src/data/country-icons'
+import { formatFounded } from '../src/lib/company-founded'
 
 function sortRows(
   rows: Record<string, unknown>[],
@@ -27,7 +29,7 @@ function sortRows(
 type Column = {
   key: string
   label: string
-  type?: 'text' | 'logo' | 'link' | 'multiline' | 'tick' | 'flag-country' | 'brand' | 'named-link'
+  type?: 'text' | 'logo' | 'link' | 'multiline' | 'tick' | 'flag-country' | 'brand' | 'named-link' | 'founded'
 }
 
 function escapeHtml(value: string): string {
@@ -40,11 +42,16 @@ function escapeHtml(value: string): string {
 }
 
 function cellText(row: Record<string, unknown>, column: Column): string {
+  if (column.type === 'founded') {
+    const year = row.foundYear
+    return formatFounded(typeof year === 'number' ? year : year == null ? null : Number(year))
+  }
   if (column.type === 'tick') {
     return row[column.key] === true ? 'Yes' : 'No'
   }
   if (column.type === 'flag-country') {
-    return `${String(row.flag ?? '')} ${String(row.country ?? '')}`.trim()
+    const country = String(row.country ?? '').trim()
+    return country || String(row.flag ?? '').trim()
   }
   if (column.type === 'link') {
     const href = typeof row[column.key] === 'string' ? (row[column.key] as string) : ''
@@ -104,6 +111,19 @@ function renderCell(row: Record<string, unknown>, column: Column): string {
     if (!src) return '—'
     return `<img src="${escapeHtml(src)}" alt="" width="24" height="24" />`
   }
+  if (column.type === 'flag-country') {
+    const country = typeof row.country === 'string' ? row.country : ''
+    const fromRow = typeof row.flag === 'string' ? row.flag : ''
+    const src =
+      (fromRow.startsWith('/') ? fromRow : null) ?? countryFlagSrc(country) ?? ''
+    const mark = src
+      ? `<img src="${escapeHtml(src)}" alt="" width="24" height="16" class="flag" /> `
+      : fromRow
+        ? `${escapeHtml(fromRow)} `
+        : ''
+    const label = country ? escapeHtml(country) : '—'
+    return `${mark}${label}`.trim() || '—'
+  }
   const text = cellText(row, column)
   if (!text) return '—'
   if (column.type === 'multiline') {
@@ -131,27 +151,27 @@ function catalogFor(routeName: string): { columns: Column[]; rows: Record<string
     case 'skills':
       return {
         columns: [
-          { key: 'owner', label: 'Owner', type: 'brand' },
           { key: 'name', label: 'Skill', type: 'named-link' },
           { key: 'description', label: 'Description' },
+          { key: 'owner', label: 'Owner', type: 'brand' },
         ],
         rows: sortRows(skills as unknown as Record<string, unknown>[], 'owner'),
       }
     case 'mcp':
       return {
         columns: [
-          { key: 'owner', label: 'Owner', type: 'brand' },
           { key: 'name', label: 'MCP', type: 'named-link' },
           { key: 'description', label: 'Description' },
+          { key: 'owner', label: 'Owner', type: 'brand' },
         ],
         rows: sortRows(mcp as unknown as Record<string, unknown>[], 'owner'),
       }
     case 'tools':
       return {
         columns: [
-          { key: 'owner', label: 'Owner', type: 'brand' },
           { key: 'name', label: 'Tool', type: 'named-link' },
           { key: 'description', label: 'Description' },
+          { key: 'owner', label: 'Owner', type: 'brand' },
         ],
         rows: sortRows(tools as unknown as Record<string, unknown>[], 'owner'),
       }
@@ -159,16 +179,20 @@ function catalogFor(routeName: string): { columns: Column[]; rows: Record<string
       return {
         columns: [
           { key: 'company', label: 'Company', type: 'brand' },
-          { key: 'country', label: 'Country', type: 'flag-country' },
-          { key: 'foundYear', label: 'Found (Year)' },
+          { key: 'founded', label: 'Founded', type: 'founded' },
+          { key: 'founders', label: 'Founders', type: 'multiline' },
+          { key: 'headquarters', label: 'Headquarters' },
+          { key: 'products', label: 'Products', type: 'multiline' },
+          { key: 'employees', label: 'Number of employees' },
+          { key: 'owners', label: 'Owners', type: 'multiline' },
         ],
         rows: sortRows(companies as unknown as Record<string, unknown>[], 'company'),
       }
     case 'models':
       return {
         columns: [
-          { key: 'owner', label: 'Owner', type: 'brand' },
           { key: 'model', label: 'Model', type: 'named-link' },
+          { key: 'owner', label: 'Owner', type: 'brand' },
           { key: 'openSource', label: 'OpenSource', type: 'tick' },
           { key: 'openWeight', label: 'OpenWeight', type: 'tick' },
           { key: 'introducedAt', label: 'Introduced' },
@@ -182,8 +206,8 @@ function catalogFor(routeName: string): { columns: Column[]; rows: Record<string
     case 'code':
       return {
         columns: [
-          { key: 'owner', label: 'Owner', type: 'brand' },
           { key: 'code', label: 'Code', type: 'named-link' },
+          { key: 'owner', label: 'Owner', type: 'brand' },
           { key: 'byok', label: 'BYOK', type: 'tick' },
           { key: 'freePlan', label: 'Free plan', type: 'tick' },
           { key: 'paidPlan', label: 'Paid plan', type: 'tick' },
@@ -195,8 +219,8 @@ function catalogFor(routeName: string): { columns: Column[]; rows: Record<string
     case 'chatbots':
       return {
         columns: [
-          { key: 'owner', label: 'Owner', type: 'brand' },
           { key: 'chatbot', label: 'ChatBot', type: 'named-link' },
+          { key: 'owner', label: 'Owner', type: 'brand' },
           { key: 'freePlan', label: 'Free plan', type: 'tick' },
           { key: 'paidPlan', label: 'Paid plan', type: 'tick' },
         ],

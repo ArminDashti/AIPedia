@@ -138,6 +138,14 @@ export const skillSections: CatalogSection[] = [
       },
       {
         owner: 'iqonicdesignofficial',
+        name: 'IQONIC Design',
+        description:
+          'UI kits, WordPress themes, and design assets for rapid web and mobile projects',
+        github: 'https://github.com/iqonicdesignofficial',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'iqonicdesignofficial',
         name: 'Hope UI Design System',
         description: 'Open-source admin dashboard and UI design system',
         github: 'https://github.com/iqonicdesignofficial/hope-ui-design-system',
@@ -301,6 +309,23 @@ export const skillSections: CatalogSection[] = [
         description: 'Use Codex from Claude Code to review code or delegate tasks',
         github: 'https://github.com/openai/codex-plugin-cc',
         logo: 'https://www.google.com/s2/favicons?domain=openai.com&sz=32',
+      },
+      {
+        owner: 'vercel',
+        name: 'eve',
+        description:
+          'Open framework for building agents: filesystem-first, durable backend agents on Vercel or self-hosted Node',
+        github: 'https://github.com/vercel/eve',
+        url: 'https://eve.dev/',
+        logo: 'https://www.google.com/s2/favicons?domain=eve.dev&sz=32',
+      },
+      {
+        owner: 'larksuite',
+        name: 'Lark CLI',
+        description:
+          'Official Lark/Feishu CLI for humans and agents: Messenger, Docs, Base, Calendar, and 200+ commands with bundled agent skills',
+        github: 'https://github.com/larksuite/cli',
+        logo: 'https://www.google.com/s2/favicons?domain=larksuite.com&sz=32',
       },
       {
         owner: 'garrytan',
@@ -468,6 +493,89 @@ export const skillSections: CatalogSection[] = [
         github: 'https://github.com/santiago-vargas-de-kruijf/claude-overkill',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
+      {
+        owner: 'ChangeRadar',
+        name: 'ChangeRadar',
+        description:
+          'Weekly early warning for API deprecations, pricing shifts, and silent model behavior changes across AI tools',
+        github: null,
+        url: 'https://changeradar.ai/',
+        logo: 'https://www.google.com/s2/favicons?domain=changeradar.ai&sz=32',
+      },
+    ],
+  },
+  {
+    id: 'security',
+    title: 'Security, Pentesting & Audit',
+    description:
+      'Agent skills, MCP bridges, and autonomous tooling for audits, offensive security, and cyber workflows.',
+    rows: [
+      {
+        owner: 'mukul975',
+        name: 'Anthropic Cybersecurity Skills',
+        description:
+          '817 structured cybersecurity skills mapped to MITRE ATT&CK, NIST CSF, D3FEND, and related frameworks',
+        github: 'https://github.com/mukul975/anthropic-cybersecurity-skills',
+        url: 'https://agentskills.io/',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'Cloudflare',
+        name: 'Security Audit Skill',
+        description:
+          'Multi-phase security audit skill with independently verified, machine-readable findings',
+        github:
+          'https://github.com/cloudflare/security-audit-skill/tree/main/skills/security-audit',
+        logo: 'https://www.google.com/s2/favicons?domain=cloudflare.com&sz=32',
+      },
+      {
+        owner: 'lauriewired',
+        name: 'GhidraMCP',
+        description: 'MCP server that connects coding agents to Ghidra for reverse engineering workflows',
+        github: 'https://github.com/lauriewired/ghidramcp',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: '0x4m4',
+        name: 'HexStrike AI',
+        description:
+          'MCP agents that run 150+ security tools for pentesting, vuln discovery, and bug bounty automation',
+        github: 'https://github.com/0x4m4/hexstrike-ai',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'greydgl',
+        name: 'PentestGPT',
+        description:
+          'Agentic penetration testing framework powered by large language models',
+        github: 'https://github.com/greydgl/pentestgpt',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'vxcontrol',
+        name: 'PentAGI',
+        description:
+          'Fully autonomous AI agent system for complex penetration testing tasks',
+        github: 'https://github.com/vxcontrol/pentagi',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'KeygraphHQ',
+        name: 'Shannon',
+        description:
+          'AI pentester for web apps and APIs: source analysis, attack vectors, and real exploit validation',
+        github: 'https://github.com/KeygraphHQ/shannon',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'usestrix',
+        name: 'Strix',
+        description:
+          'Open-source AI penetration testing tool to find and fix application vulnerabilities',
+        github: 'https://github.com/usestrix/strix',
+        url: 'https://strix.ai',
+        logo: 'https://www.google.com/s2/favicons?domain=strix.ai&sz=32',
+      },
     ],
   },
   {
@@ -480,15 +588,30 @@ export const skillSections: CatalogSection[] = [
         name: 'Skills',
         description: 'Open agent skills CLI (`npx skills`) for finding and installing skills',
         github: 'https://github.com/vercel-labs/skills',
-        url: 'https://skills.sh',
+        url: 'https://skills.sh/',
         logo: 'https://www.google.com/s2/favicons?domain=skills.sh&sz=32',
+      },
+      {
+        owner: 'vercel-labs',
+        name: 'Agent Skills',
+        description: "Vercel's official collection of agent skills",
+        github: 'https://github.com/vercel-labs/agent-skills',
+        logo: 'https://www.google.com/s2/favicons?domain=vercel.com&sz=32',
+      },
+      {
+        owner: 'Agent Skills',
+        name: 'agentskills.io',
+        description: 'Open standard and ecosystem hub for portable agent skills across platforms',
+        github: null,
+        url: 'https://agentskills.io/',
+        logo: 'https://www.google.com/s2/favicons?domain=agentskills.io&sz=32',
       },
       {
         owner: 'vercel-labs',
         name: 'skills.sh',
         description: 'Open agent skills directory and install leaderboard',
-        github: null,
-        url: 'https://www.skills.sh/',
+        github: 'https://github.com/vercel-labs/skills',
+        url: 'https://skills.sh/',
         logo: 'https://www.google.com/s2/favicons?domain=skills.sh&sz=32',
       },
       {

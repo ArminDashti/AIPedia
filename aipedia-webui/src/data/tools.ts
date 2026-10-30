@@ -103,6 +103,14 @@ export const toolSections: CatalogSection[] = [
         logo: 'https://www.google.com/s2/favicons?domain=lobehub.com&sz=32',
       },
       {
+        owner: 'larksuite',
+        name: 'Lark CLI',
+        description:
+          'Official Lark/Feishu CLI for humans and agents: Messenger, Docs, Base, Calendar, and 200+ commands with bundled agent skills',
+        github: 'https://github.com/larksuite/cli',
+        logo: 'https://www.google.com/s2/favicons?domain=larksuite.com&sz=32',
+      },
+      {
         owner: 'letta-ai',
         name: 'Letta',
         description:
@@ -453,6 +461,66 @@ export const toolSections: CatalogSection[] = [
         logo: 'https://www.google.com/s2/favicons?domain=daytona.io&sz=32',
       },
       {
+        owner: 'agentusecases',
+        name: 'Agent Use Cases',
+        description:
+          'Searchable directory of real-world AI agent use cases mined from the open web, X, Reddit, and Hacker News',
+        github: null,
+        url: 'https://agentusecases.ai/',
+        logo: 'https://www.google.com/s2/favicons?domain=agentusecases.ai&sz=32',
+      },
+      {
+        owner: 'ai-job-search-dev',
+        name: 'AI Job Search',
+        description:
+          'Local Claude Code job-search framework: evaluate postings, tailor CVs, write cover letters, and prep interviews',
+        github: 'https://github.com/ai-job-search-dev/ai-job-search',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'CopilotKit',
+        name: 'OpenDuet',
+        description:
+          'Open-source template for a proactive AI agent that gets work done and keeps you in the loop',
+        github: 'https://github.com/CopilotKit/OpenDuet',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'TauricResearch',
+        name: 'TradingAgents',
+        description: 'Multi-agent LLM framework for financial trading research and simulation',
+        github: 'https://github.com/TauricResearch/TradingAgents',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'vercel',
+        name: 'eve',
+        description:
+          'Filesystem-first Apache-2.0 framework for durable backend agents on Vercel or self-hosted Node',
+        github: 'https://github.com/vercel/eve',
+        url: 'https://eve.dev/',
+        logo: 'https://www.google.com/s2/favicons?domain=eve.dev&sz=32',
+      },
+      {
+        owner: 'HarnessRouter',
+        name: 'HarnessRouter',
+        description:
+          'Unified Harness Protocol API to run Codex, Claude Code, Hermes, and other agent harnesses in your product',
+        github: null,
+        url: 'https://harnessrouter.ai/',
+        logo: 'https://www.google.com/s2/favicons?domain=harnessrouter.ai&sz=32',
+        categories: ['gateways'],
+      },
+      {
+        owner: 'Reason Machines',
+        name: 'Reason',
+        description:
+          'Frontier coding agent and Reason Network so Claude Code, Codex, Cursor, Grok Bot, and Muse can collaborate',
+        github: null,
+        url: 'https://reasonmachines.com/',
+        logo: 'https://www.google.com/s2/favicons?domain=reasonmachines.com&sz=32',
+      },
+      {
         owner: 'merge',
         name: 'Merge',
         description:
@@ -596,6 +664,31 @@ export const toolSections: CatalogSection[] = [
         description:
           'Curated list of memory systems, frameworks, benchmarks, and research for AI agents',
         github: 'https://github.com/mnemoverse/awesome-agent-memory',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'supermemory',
+        name: 'supermemory',
+        description:
+          'Continual-learning memory engine with learner-1, vector-graph storage, and real-time context injection via API, plugins, and MCP',
+        github: null,
+        url: 'https://supermemory.ai/',
+        logo: 'https://www.google.com/s2/favicons?domain=supermemory.ai&sz=32',
+      },
+      {
+        owner: 'Leonxlnx',
+        name: 'unlazy',
+        description:
+          'Anti-laziness agent skill using the Depth Tree method so leaf subtasks get full time budgets and avoid premature completion',
+        github: 'https://github.com/Leonxlnx/unlazy',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'QingYunA',
+        name: 'Answer Me With HTML',
+        description:
+          'Agent skill that answers hard questions as a single readable one-page HTML artifact',
+        github: 'https://github.com/QingYunA/answer-me-with-html',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
     ],
@@ -911,6 +1004,16 @@ export const toolSections: CatalogSection[] = [
         logo: 'https://www.google.com/s2/favicons?domain=kilo.ai&sz=32',
       },
       {
+        owner: 'vercel-labs',
+        name: 'skills.sh',
+        description:
+          'Open agent skills directory and install leaderboard; install packages with `npx skills`',
+        github: 'https://github.com/vercel-labs/skills',
+        url: 'https://skills.sh/',
+        logo: 'https://www.google.com/s2/favicons?domain=skills.sh&sz=32',
+        categories: ['standards'],
+      },
+      {
         owner: 'typesafe',
         name: 'TypeSafe',
         description: 'Type-safe tooling and APIs for building reliable LLM-powered applications',
@@ -973,6 +1076,14 @@ export const toolSections: CatalogSection[] = [
         github: 'https://github.com/eclipse-theia/theia',
         url: 'https://theia-ide.org/',
         logo: 'https://www.google.com/s2/favicons?domain=theia-ide.org&sz=32',
+      },
+      {
+        owner: 'shellhub-io',
+        name: 'ShellHub',
+        description:
+          'Centralized SSH gateway for seamless remote access to Linux edge and cloud devices',
+        github: 'https://github.com/shellhub-io/shellhub',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
     ],
   },
@@ -1108,6 +1219,33 @@ export const toolSections: CatalogSection[] = [
         github: null,
         url: 'https://cleanapis.com/',
         logo: 'https://www.google.com/s2/favicons?domain=cleanapis.com&sz=32',
+      },
+      {
+        owner: 'Infron',
+        name: 'Infron',
+        description:
+          'OpenAI-compatible inference gateway with official partner routes, BYOK, and cost optimization for production AI',
+        github: null,
+        url: 'https://infron.ai/',
+        logo: 'https://www.google.com/s2/favicons?domain=infron.ai&sz=32',
+      },
+      {
+        owner: 'Refuseless',
+        name: 'Refuseless',
+        description:
+          'Hosted OpenAI- and Anthropic-compatible API for abliterated open models with zero prompt retention',
+        github: null,
+        url: 'https://refuseless.com/',
+        logo: 'https://www.google.com/s2/favicons?domain=refuseless.com&sz=32',
+      },
+      {
+        owner: 'APInex',
+        name: 'APInex',
+        description:
+          'One API key for OpenAI-compatible models plus web research, X/Twitter, and voice on a shared token balance',
+        github: null,
+        url: 'https://apinex.bond/',
+        logo: 'https://www.google.com/s2/favicons?domain=apinex.bond&sz=32',
       },
     ],
   },
@@ -1358,6 +1496,14 @@ export const toolSections: CatalogSection[] = [
         url: 'https://scrapling.readthedocs.io/en/latest/',
         logo: 'https://www.google.com/s2/favicons?domain=scrapling.readthedocs.io&sz=32',
       },
+      {
+        owner: 'vibheksoni',
+        name: 'Stealth Browser MCP',
+        description:
+          'MCP server for stealth browser automation over CDP: navigation, network hooks, DOM extraction, and UI cloning',
+        github: 'https://github.com/vibheksoni/stealth-browser-mcp',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
     ],
   },
   {
@@ -1386,6 +1532,15 @@ export const toolSections: CatalogSection[] = [
         description: 'Open-source VPN protocol library for fast, secure connections; powers ExpressVPN apps',
         github: 'https://github.com/expressvpn/lightway',
         logo: 'https://www.google.com/s2/favicons?domain=expressvpn.com&sz=32',
+      },
+      {
+        owner: 'Student Offers',
+        name: 'Student Offers',
+        description:
+          'Verified student discounts and savings guides for software, cloud, AI tools, and everyday services',
+        github: null,
+        url: 'https://www.studentoffers.co/',
+        logo: 'https://www.google.com/s2/favicons?domain=studentoffers.co&sz=32',
       },
     ],
   },

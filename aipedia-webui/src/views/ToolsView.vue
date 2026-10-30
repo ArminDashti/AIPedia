@@ -4,8 +4,8 @@ import { toolSections } from '@/data/tools'
 
 const columns = [
   { key: 'name', label: 'Tool', type: 'named-link' as const },
-  { key: 'owner', label: 'Owner', type: 'brand' as const },
   { key: 'description', label: 'Description' },
+  { key: 'owner', label: 'Owner', type: 'brand' as const },
 ]
 </script>
 

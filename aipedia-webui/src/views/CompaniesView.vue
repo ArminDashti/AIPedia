@@ -4,8 +4,12 @@ import { companies } from '@/data/companies'
 
 const columns = [
   { key: 'company', label: 'Company', type: 'brand' as const },
-  { key: 'country', label: 'Country', type: 'flag-country' as const },
-  { key: 'foundYear', label: 'Found (Year)' },
+  { key: 'founded', label: 'Founded', type: 'founded' as const },
+  { key: 'founders', label: 'Founders', type: 'multiline' as const },
+  { key: 'headquarters', label: 'Headquarters' },
+  { key: 'products', label: 'Products', type: 'multiline' as const },
+  { key: 'employees', label: 'Number of employees' },
+  { key: 'owners', label: 'Owners', type: 'multiline' as const },
 ]
 </script>
 
