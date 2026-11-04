@@ -89,6 +89,14 @@ export const skillSections: CatalogSection[] = [
         github: 'https://github.com/mhattingpete/claude-skills-marketplace',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
+      {
+        owner: 'rampstackco',
+        name: 'Rampstack Claude Skills',
+        description:
+          'Stack-agnostic Claude skills for the full website lifecycle: brand, design, content, SEO, dev, ops, growth, and research',
+        github: 'https://github.com/rampstackco/claude-skills',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
     ],
   },
   {
@@ -375,6 +383,30 @@ export const skillSections: CatalogSection[] = [
         description:
           'Read-only SQL against Microsoft SQL Server: explore schemas, run bounded queries, multi-database',
         github: 'https://github.com/sanjay3290/ai-skills/tree/main/skills/mssql',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'sanjay3290',
+        name: 'Deep Research Skill',
+        description:
+          'Cross-platform agent skill for structured deep research workflows across Claude Code, Cursor, Codex, and Gemini CLI',
+        github: 'https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'sanjay3290',
+        name: 'Postgres Skill',
+        description:
+          'Read-only PostgreSQL exploration and bounded queries for coding agents via the ai-skills pack',
+        github: 'https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'Anjos2',
+        name: 'Recursive Research',
+        description:
+          'Claude Code skill for recursive research with source tiering, inversion checks, and disk checkpointing across long runs',
+        github: 'https://github.com/Anjos2/recursive-research',
         logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
       {

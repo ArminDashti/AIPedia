@@ -27,6 +27,8 @@ Links collected for reference, grouped by category.
 - https://github.com/FoundationAgents/MetaGPT
 - https://github.com/TransformerOptimus/SuperAGI
 - https://github.com/callstack/agent-device
+- https://github.com/elizaOS/eliza
+- https://github.com/agent0ai/agent-zero
 - https://github.com/1jehuang/jcode
 - https://github.com/rinadelph/Agent-MCP
 - https://github.com/dietrichgebert/ponytail
@@ -94,6 +96,14 @@ Links collected for reference, grouped by category.
 
 - https://elevenlabs.io/
 - https://github.com/debpalash/VoiceStudio
+- https://github.com/livekit/livekit
+
+## Video, Streaming, and Realtime Media
+
+- https://github.com/remotion-dev/remotion
+- https://github.com/obsproject/obs-studio
+- https://github.com/calesthio/OpenMontage
+- https://github.com/webadderallorg/Recordly
 
 ## Agent Tools and Web Access
 
@@ -139,6 +149,10 @@ Links collected for reference, grouped by category.
 - https://github.com/omkamal/pypict-claude-skill
 - https://github.com/santiago-vargas-de-kruijf/claude-overkill
 - https://github.com/mhattingpete/claude-skills-marketplace
+- https://github.com/rampstackco/claude-skills
+- https://github.com/Anjos2/recursive-research
+- https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research
+- https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres
 - https://github.com/obra/superpowers/tree/main/skills/brainstorming
 - https://github.com/sanjay3290/ai-skills/tree/main/skills/mssql
 - https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/git-pushing
@@ -157,6 +171,7 @@ Links collected for reference, grouped by category.
 ## UI and Design Assets
 
 - https://github.com/iqonicdesignofficial
+- https://github.com/iqonicdesignofficial/hope-ui-design-system
 - https://github.com/better-auth/better-icons
 
 ## LLM Infrastructure and Gateways

@@ -381,6 +381,20 @@ export const toolSections: CatalogSection[] = [
         logo: 'https://www.google.com/s2/favicons?domain=callstack.com&sz=32',
       },
       {
+        owner: 'elizaOS',
+        name: 'Eliza',
+        description: 'Open-source agentic operating system for building and running autonomous agents',
+        github: 'https://github.com/elizaOS/eliza',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
+        owner: 'agent0ai',
+        name: 'Agent Zero',
+        description: 'Agent Zero framework for general-purpose autonomous AI agents',
+        github: 'https://github.com/agent0ai/agent-zero',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
+      },
+      {
         owner: 'CopilotKit',
         name: 'CopilotKit OpenBot',
         description:
@@ -1447,6 +1461,40 @@ export const toolSections: CatalogSection[] = [
         github: null,
         url: 'https://leonardo.ai/',
         logo: 'https://www.google.com/s2/favicons?domain=leonardo.ai&sz=32',
+      },
+      {
+        owner: 'LiveKit',
+        name: 'LiveKit',
+        description:
+          'End-to-end realtime stack for connecting humans and AI over WebRTC voice, video, and data',
+        github: 'https://github.com/livekit/livekit',
+        url: 'https://livekit.io/',
+        logo: 'https://www.google.com/s2/favicons?domain=livekit.io&sz=32',
+      },
+      {
+        owner: 'remotion-dev',
+        name: 'Remotion',
+        description: 'Make videos programmatically with React',
+        github: 'https://github.com/remotion-dev/remotion',
+        url: 'https://www.remotion.dev/',
+        logo: 'https://www.google.com/s2/favicons?domain=remotion.dev&sz=32',
+      },
+      {
+        owner: 'OBS Project',
+        name: 'OBS Studio',
+        description:
+          'Free and open-source software for live streaming and screen recording',
+        github: 'https://github.com/obsproject/obs-studio',
+        url: 'https://obsproject.com/',
+        logo: 'https://www.google.com/s2/favicons?domain=obsproject.com&sz=32',
+      },
+      {
+        owner: 'webadderallorg',
+        name: 'Recordly',
+        description:
+          'Create polished demo videos without editing skills on Mac, Windows, and Linux',
+        github: 'https://github.com/webadderallorg/Recordly',
+        logo: 'https://www.google.com/s2/favicons?domain=github.com&sz=32',
       },
     ],
   },
